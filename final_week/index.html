@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Platform</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Donate to Social Causes</h1>
+
+        <div class="cause-list">
+            <div class="cause-card" data-cause-id="1">
+                <h2>Clean Water for Villages</h2>
+                <p>Provide clean water to rural villages.</p>
+                <p>Goal: $5000</p>
+                <button class="donate-button">Donate Now</button>
+            </div>
+            <div class="cause-card" data-cause-id="2">
+                <h2>Health Clinics for Underserved Areas</h2>
+                <p>Help build health clinics in underserved regions.</p>
+                <p>Goal: $10000</p>
+                <button class="donate-button">Donate Now</button>
+            </div>
+            <div class="cause-card" data-cause-id="3">
+                <h2>Education for Underprivileged Children</h2>
+                <p>Support education for children in need.</p>
+                <p>Goal: $3000</p>
+                <button class="donate-button">Donate Now</button>
+            </div>
+        </div>
+
+        <!-- Donation Modal -->
+        <div class="modal" id="donationModal">
+            <div class="modal-content">
+                <h2>Enter Donation Amount</h2>
+                <input type="number" id="donationAmount" placeholder="Enter amount">
+                <button id="confirmDonation">Confirm Donation</button>
+                <button id="cancelDonation">Cancel</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
