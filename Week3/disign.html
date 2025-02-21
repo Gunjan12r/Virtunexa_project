@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greeting Card Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create Your Greeting Card</h1>
+
+    <!-- Card Customization Form -->
+    <div class="form-container">
+      <label for="theme">Choose Theme:</label>
+      <select id="theme" onchange="updateCard()">
+        <option value="birthday">Birthday</option>
+        <option value="holiday">Holiday</option>
+        <option value="anniversary">Anniversary</option>
+        <option value="thank-you">Thank You</option>
+        <option value="love">Love</option>
+      </select>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" placeholder="Write your personalized message" onchange="updateCard()"></textarea>
+
+      <label for="image">Upload an Image:</label>
+      <input type="file" id="image" accept="image/*" onchange="uploadImage()">
+
+      <!-- Card Preview -->
+      <div class="card-preview">
+        <div id="card" class="card">
+          <h2 id="card-theme">Birthday</h2>
+          <img id="card-image" class="card-image" src="" alt="Card Image" />
+          <p id="card-message">Write your personalized message here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

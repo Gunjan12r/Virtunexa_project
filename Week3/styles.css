@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eda9a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgb(129, 221, 233);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+  }
+  
+  select, textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  /* Card Preview Styles */
+  .card-preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #fefafa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .card h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
